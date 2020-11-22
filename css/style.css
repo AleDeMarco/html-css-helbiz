@@ -1,0 +1,77 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+/* HEADER */
+header{
+  height: 80px;
+  line-height: 80px;
+}
+
+.container{
+  width: 80%;
+}
+
+ul.nav-page li,
+ul.nav-lang li{
+  display: inline-block;
+  padding-right: 10px;
+}
+
+ul.nav-page li a,
+ul.nav-lang li a{
+  color: #343434;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+header .logo{
+  vertical-align: middle;
+}
+
+.nav-lang li:not(:last-child) a{
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+  background-image: url('../img/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+.jumbotron h1{
+  font-size: 32px;
+}
+
+.jumbotron p{
+  margin: 10px 0;
+}
+
+.jumbotron .testo{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px){
+  .jumbotron h1{
+    font-size: 26px;
+  }
+}
