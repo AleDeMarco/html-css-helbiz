@@ -6,6 +6,7 @@
 
 /* DEBUGGING */
 .debug .row [class*="col-"] {
+  height: 200px;
   background-color: pink;
   border: 1px solid black;
 }
@@ -279,6 +280,10 @@
   margin-left: calc(100% / 12 * 12);
 }
 
+.lg-no-offset{
+  margin-left: 0;
+}
+
 @media screen and (min-width:768px) and (max-width:992px) {
   .col-md-offset-1 {
     margin-left: calc(100% / 12 * 1);
@@ -326,6 +331,10 @@
 
   .col-md-offset-12 {
     margin-left: calc(100% / 12 * 12);
+  }
+
+  .md-no-offset{
+    margin-left: 0;
   }
 }
 
@@ -376,5 +385,9 @@
 
   .col-xs-offset-12 {
     margin-left: calc(100% / 12 * 12);
+  }
+
+  .xs-no-offset{
+    margin-left: 0;
   }
 }
