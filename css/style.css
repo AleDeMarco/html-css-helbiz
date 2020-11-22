@@ -78,7 +78,8 @@ header .logo{
 
 /* PRODUCT */
 #product,
-#work{
+#work,
+#smart{
   margin-top: 50px;
 }
 
@@ -103,20 +104,139 @@ header .logo{
 }
 
 /* WORK */
-#work{
+#work .box{
   height: 300px;
   background-image: url(../img/index-banner.1f6fd0a.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 #work img{
-  width: 60%;
-  display: block;
-  margin: auto;
-  transform: translateY(32%);
+  width: 15%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 30%);
 }
 
 #work .name{
   font-size: 30px;
+  margin: 40px 0;
+}
+
+#work .step{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+#work .descr{
+  font-size: 15px;
+}
+
+/* SMART */
+
+#smart .banner{
+  height: 330px;
+  background-image: url(../img/scooter.f0a0397.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smart .title{
+  font-size: 35px;
+  color: white;
+}
+
+#smart .col-lg-offset-6.col-lg-6{
+  padding: 70px 100px;
+}
+
+#smart .descr{
+  font-size: 15px;
+  color: white;
+  margin: 20px 0;
+}
+
+#smart a{
+  font-size: 15px;
+  color: white;
+}
+
+#smart .left{
+  width: calc(50% - 10px);
+  height: 330px;
+  margin-right: 10px;
+  background: linear-gradient(0deg, rgba(37,47,56,1) 0%, rgba(64,85,105,1) 100%);
+  float: left;
+}
+
+#smart .right{
+  width: calc(50% - 10px);
+  height: 330px;
+  margin-left: 10px;
+  background-image: url(../img/city.7c8c928.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+#smart .head{
+  font-size: 25px;
+  color: white;
+}
+
+#smart img{
+  margin-top: 20px;
+  width: 80%
+}
+
+/* FAMILY */
+#family{
+  position: relative;
+}
+
+#family .background{
+  height: 330px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/family.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#family .box{
+  width: 335px;
+  height: 140px;
+  display: block;
+  margin: auto;
+  margin-top: 95px;
+  padding: 0;
+  background-color: white;
+  position: relative;
+}
+
+#family .content{
+  width: 170px;
+  height: 70px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#family .hashtag{
+  font-size: 25px;
+  color: black;
+}
+
+#family i{
+  text-align: center;
+  width: 23%;
+  font-size: 25px;
+  color: black;
 }
